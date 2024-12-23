@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const upload = require('../middleware/multer');
-const { addFoodItem, getAllFoodItems, getFoodItemsByRestaurant, updateFoodItem, deleteFoodItem } = require('../controller/foodItemController');
+const { addFoodItem, getAllFoodItems, getFoodItemsByRestaurant, updateFoodItem, deleteFoodItem } = require('../Controller/foodItemController');
 
 
 /**

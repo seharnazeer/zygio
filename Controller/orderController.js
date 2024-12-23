@@ -1,4 +1,4 @@
-// controllers/OrderController.js
+// Controllers/OrderController.js
 const Order = require('../models/order');
 const FoodItem = require('../models/fooditem');
 const generateOrderCode = require('../utils/generateOrderCode');

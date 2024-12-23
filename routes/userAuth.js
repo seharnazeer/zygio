@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { registerUser, loginUser, uploadProfilePicture, updateUserInfo } = require('../controller/userController');
+const { registerUser, loginUser, uploadProfilePicture, updateUserInfo } = require('../Controller/userController');
 const upload = require('../middleware/multer');
 
 /**
