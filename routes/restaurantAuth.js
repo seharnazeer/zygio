@@ -1,7 +1,7 @@
 // routes/restaurantAuth.js
 const express = require('express');
 const router = express.Router();
-const { registerRestaurant, loginRestaurant , updateRestaurantInfo, uploadProfilePicture } = require('../Controller/restaurantAuth');
+const { registerRestaurant, loginRestaurant , updateRestaurantInfo, uploadProfilePicture } = require('../controller/restaurantAuth');
 const upload = require('../middleware/multer');
 
 /**
